@@ -1,10 +1,17 @@
+
+
 const initialState = {
-    user: '',
-    profilepic: '',
+    user: 'guest',
+    profilepic: '?',
     cart: [],
     wishlist: []
 }
 
+const UPDATE_USER = 'UPDATE_USER';
+
+export function getUserInfo() {
+
+}
 
 export default function reducer(state=initialState, action) {
     switch(action.type) {

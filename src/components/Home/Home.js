@@ -7,7 +7,7 @@ export default class Home extends Component {
         return(
             <div>
 
-            HOME PAGE
+            HOME PAGE WITH A CAROUSEL
 
             </div>
         )
