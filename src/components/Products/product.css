@@ -1,0 +1,12 @@
+.picture-size{
+    width: 200px;
+    height: 200px;
+}
+.circle {
+    border-radius:50%;
+    width: 290px;
+    height: 205px;
+}
+.inputbox{
+    width:10px;
+}

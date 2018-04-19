@@ -5,6 +5,7 @@ import Products from './components/Products/Products';
 import Cart from './components/Cart/Cart';
 import Posts from './components/Posts/Posts';
 import Signin from './components/Sign_in/Signin';
+import ProductInfo from './components/Products/ProductInfo';
 
 export default (
     <Switch>
@@ -13,6 +14,7 @@ export default (
         <Route path='/cart' component={Cart} />
         <Route path='/posts' component={Posts} />
         <Route path='/signin' component={Signin} />
+        <Route path='/product/:id' component={ProductInfo} />
         
     </Switch>
 )
