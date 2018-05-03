@@ -3,7 +3,7 @@ module.exports = {
     getCart: (req, res) => {
         let dataBase = req.app.get('db');
 
-        dataBase.getCart().then( (result) => res.status(200).send(result))
+        dataBase.getCart([req.session.passport.user]).then( (result) => res.status(200).send(result))
     },
 
     addToCart: (req, res) => {
@@ -49,6 +49,8 @@ module.exports = {
 
         dataBase.getusername([req.session.passport.user]).then((result) => res.status(200).send(result))
     }
+
+
 
 }
 

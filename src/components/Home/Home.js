@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Products from '../../components/Products/Products';
 import './Home.css';
+import { Carousel } from 'react-responsive-carousel';
 
 
 export default class Home extends Component {
